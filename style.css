@@ -19,6 +19,16 @@ html,body{
 	position: absolute;
 }
 
+@media screen and (max-width=667px){
+#container{
+	border:0px solid black;
+	min-height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+}
+
 #header{
 	width: 100%;
 	padding: 10px 0px 10px 0px;
